@@ -6,7 +6,7 @@ services:
       - CHOKIDAR_USEPOLLING=true
     build:
       context: .
-      dockerfile: Dockerfile.dev3
+      dockerfile: Dockerfile.dev
     ports:
       - '3000:3000'
     volumes:
@@ -19,9 +19,8 @@ services:
       - CHOKIDAR_USEPOLLING=true
     build:
       context: .
-      dockerfile: Dockerfile.dev3
+      dockerfile: Dockerfile.dev
     volumes:
       - /app/node_modules
       - .:/app
     command: ["npm", "run", "test"]
-    
