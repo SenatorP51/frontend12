@@ -6,6 +6,6 @@ services:
       - CHOKIDAR_USEPOLLING=true
     build:
       context: .
-      dockerfile: Dockerfile.dev
+      dockerfile: Dockerfile
     ports:
       - "80:80"

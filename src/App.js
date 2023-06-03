@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Lab12 compose <code>src/App.js</code> and save to reload.
+          Lab4 NS 02.06 compose <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
