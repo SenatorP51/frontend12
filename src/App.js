@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Lab4 NS 15:00 AWS <code>src/App.js</code> and save to reload.
+          pon 9.00 <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
